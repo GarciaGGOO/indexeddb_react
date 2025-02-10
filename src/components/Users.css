@@ -1,0 +1,88 @@
+/* Users.css */
+.container {
+    padding: 20px;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+  
+  table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #505050;
+    color: white;
+    font-weight: 600;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #ffffff15;
+    
+  }
+  
+  table tr:hover {
+    background-color: #f1f1f14d;
+  }
+  
+  table td {
+    color: white;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #505050;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #333;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    padding: 5px 10px;
+  }
+  
+  .pagination span {
+    font-size: 16px;
+    color: white;
+  }
