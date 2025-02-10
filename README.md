@@ -8,7 +8,6 @@ Este projeto foi desenvolvido para estudar e aplicar o uso do IndexedDB em conju
 - IndexedDB para armazenamento local
 - Axios para requisições HTTP
 - Hooks personalizados para interagir com o IndexedDB
-- Icons do FontAwesome
 
 ## 📂 Estrutura do Projeto
 ```
